@@ -1,0 +1,123 @@
+.title{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+paper-toolbar {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+paper-card {
+    background: var(--paper-grey-300);
+}
+
+div.placeholder {
+    padding-top: 50px;
+}
+
+paper-card img {
+    width: 70%;
+    border: thin solid var(--paper-blue-700);
+    border-radius: 100px;
+    margin: auto;
+}
+
+paper-button.profile {
+    background-color: var(--paper-blue-700);
+    border-radius: 5px; 
+    color: white;
+    margin-bottom: 5px;
+}
+
+paper-button.menu-item {
+    background-color: var(--paper-blue-700);
+    border-radius: 5px; 
+    color: white;
+    margin-bottom: 5px;
+}
+
+app-drawer {
+    z-index: 2;
+}
+
+paper-button.menu-item {
+    border: white thin solid;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    background-color: var(--paper-grey-300);
+    color: black;
+}
+
+.toast-close {
+    text-transform: none;
+    margin-left: 10px;
+    color: var(--paper-lime-a200);
+    float: right;
+    cursor: pointer;
+    padding: 0;
+}
+
+paper-toast {
+    font-weight: bold;
+    max-width: none !important;
+    width: inherit !important;
+}
+
+.success {
+    color: var(--paper-green-500);
+}
+
+.info {
+    color: var(--paper-blue-700);
+}
+
+.warning {
+    color: var(--paper-orange-500);
+}
+
+.failure {
+    color: var(--paper-red-a400);
+}
+
+paper-progress {
+    display: block;
+    width: 100%;
+}
+
+.route-links {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.router-link {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.is-active:after, .router-link:hover::after {
+    content: '';
+    border-top: solid 5px #fff;
+    border-left: solid 5px transparent;
+    border-right: solid 5px transparent;
+    position: absolute;
+    left: 44%;
+    top: 80%;
+}
+
+paper-menu-button {
+    margin-right: 25px;
+}
+
+paper-listbox {
+    cursor: pointer;
+}
+
+paper-dialog {
+    width: 100vh;
+    background-color: var(--paper-blue-50);
+}

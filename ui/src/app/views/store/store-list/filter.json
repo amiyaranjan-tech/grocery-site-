@@ -1,0 +1,57 @@
+{
+    "page": 1,
+    "size": 20,
+    "orderType": "asc",
+    "orderBy": "name",
+    "search": {
+        "title": "Search Filters",
+        "filters": [
+            {
+                "key": "name"
+            },
+            {
+                "key": "description"
+            }
+        ]
+    },
+    "range": {
+        "title": "Range Filters",
+        "filters": [
+            {
+                "key": "price"
+            }
+        ]
+    },
+    "select": [
+        {
+            "title": "Categories",
+            "type": "checkbox",
+            "filters": [
+                {
+                    "key": "name"
+                },
+                {
+                    "key": "description"
+                },
+                {
+                    "key": "address"
+                }
+            ]
+        },
+        {
+            "title": "Stores",
+            "type": "radio",
+            "filters": [
+                {
+                    "key": "name"
+                },
+                {
+                    "key": "description"
+                },
+                {
+                    "key": "address"
+                }
+            ]
+        }
+    ]
+}

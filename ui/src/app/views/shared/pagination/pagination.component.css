@@ -1,0 +1,11 @@
+paper-card {
+    background-color: var(--paper-blue-50);
+}
+
+select {
+    height: 45px;
+}
+
+.pagination-info {
+    color: var(--paper-blue-700);
+}

@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+.mtxl {
+    margin-top: 50px;
+}
+
+.mtl {
+    margin-top: 30px;
+}
+
+.mtm {
+    margin-top: 20px;
+}
+
+.mts {
+    margin-top: 10px;
+}
+
+.mtxs {
+    margin-top: 5px;
+}
+
+.mbxl {
+    margin-bottom: 50px;
+}
+
+.mbl {
+    margin-bottom: 30px;
+}
+
+.mbm {
+    margin-bottom: 20px;
+}
+
+.mbs {
+    margin-bottom: 10px;
+}
+
+.mbxs {
+    margin-bottom: 5px;
+}
+
+paper-card {
+    border: thin solid var(--paper-blue-200);
+}

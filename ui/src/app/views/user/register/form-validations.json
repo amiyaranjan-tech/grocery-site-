@@ -1,0 +1,40 @@
+{
+    "name": {
+        "required": {
+            "message": "name is required"
+        }
+    },
+    "email": {
+        "required": {
+            "message": "email id is required"
+        },
+        "pattern": {
+            "key": "^(([^<>()\\[\\]\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$",
+            "message": "invalid email id."
+        }
+    },
+    "password": {
+        "required": {
+            "message": "password is required"
+        },
+        "min": {
+            "key": "5",
+            "message": "password should be minimum 5 letters."
+        }
+    },
+    "repeatPassword": {
+        "compare": {
+            "key": "password",
+            "message": "passwords do not match."
+        }
+    },
+    "userType": {
+        "required": {
+            "message": "usertype is required"
+        },
+        "contains": {
+            "key": "SHOPKEEPER|CUSTOMER",
+            "message": "Invalid user type."
+        }
+    }
+}
