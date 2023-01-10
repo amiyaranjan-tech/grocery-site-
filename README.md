@@ -1,4 +1,4 @@
-# mygroceryboy
+# grocery site 
 MEAN Stack with Angular 2 and Typescript Node. Application to sell &amp; buy grocery online.
 
 # launch.json
